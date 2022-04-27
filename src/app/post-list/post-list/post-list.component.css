@@ -6,3 +6,7 @@
 .text-info {
     text-align: center;
 }
+
+mat-progress-spinner {
+    margin: auto;
+}

@@ -4,7 +4,7 @@ const Post = require('../models/post');
 
 const router = express.Router();
 
-router.post("/", (req, res, next) => {
+router.post("", (req, res, next) => {
     const post = new Post({
         title: req.body.title,
         content: req.body.content
